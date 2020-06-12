@@ -43,10 +43,6 @@ async def yt(ctx, *, titulo):
     resultado = re.findall('href=\"\\/watch\\?v=(.{11})', contenido.read().decode())
     await ctx.send('https://www.youtube.com/watch?v=' + resultado[0])
 
-
-#Server noche de tios
-#my_bot.run('NzIwNzM3MTgyODM0MzYwMzcx.XuKU5Q.NV6JHdUxDUvok-wpjdRiwJ0mrq8')
-
-#Server de Pruebas
-bot.run('NzIwOTE0NjMxNjQ3OTUyOTM3.XuM6Hg.wa6XsM-XLGiFFua_ALSodhWgR4w')
+#Aqui hay que poner el token del bot
+bot.run('')
 
